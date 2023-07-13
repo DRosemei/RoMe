@@ -1,0 +1,70 @@
+wandb:
+  name: "######"
+  dir: "######/temp_file/wandb"
+  entity: "######"
+  tags: []
+  project: "######"
+
+# when on cluster, no wandb logs
+cluster: False
+
+# BEV size
+bev_x_length: 200
+bev_y_length: 200
+bev_resolution: 0.1  # meters
+bev_x_pixel: 2000
+bev_y_pixel: 2000
+cut_range: 5
+
+# Training Parameters
+waypoint_radius: 400  # meters
+batch_size: 6
+pos_enc: 4
+lr: 
+  vertices_rgb: 0.1
+  vertices_label: 0.1
+  # vertices_z: 0.001
+  rotations: 0.01
+  translations: 0.01
+
+extrinsic:  # extrinsic optimization range
+  rotation_deg: 0.5
+  translation_m: 0.5
+  start_epoch: 100
+  
+lr_milestones: [1, 4]
+lr_gamma: 0.1
+seg_loss_weight: 0.02
+normal_loss_weight: 0
+laplacian_loss_weight: 1
+rand_seed: 17
+epochs: 7
+
+# Performance Parameters
+num_workers: 6
+
+
+dataset: "KittiDataset"
+base_dir: "######/KittiOdom"
+image_dir: "######/KittiOdom"
+eval: False
+
+sequence: "00"
+
+center_point: # do not change
+  x: 0.0
+  y: 0.0
+
+choose_point: # choose points for visualize BEV. change this to change the center of BEV 
+  x: 0.0
+  y: 0.0
+
+# minimum distance between frame to sample the dataset
+min_distance: 0.2
+
+# resized image size
+image_width: 1241
+image_height: 376
+
+camera_names:
+ - "image_2"
