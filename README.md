@@ -1,13 +1,14 @@
 # RoMe: Towards Large Scale Road Surface Reconstruction via Mesh Representation
 
 ### [Paper](https://arxiv.org/abs/2306.11368)
-![alt text](https://github.com/DRosemei/RoMe/assets/rome_structure.png)
+
+<p align="left">
+  <img src="assets/rome_structure.png" width="70%"/>
+</p>
 
 
 ### Ruohong Mei, Wei Sui, Jiaxin Zhang, Qian Zhang, Tao Peng and Cong Yang
-
-
-video here
+[YouTube](), [Bilibili](https://www.bilibili.com/video/BV1Xx4y1o7ea/?vd_source=5051310ed13090afc35ea319bbc5cac3)
 
 
 ## Dataset
@@ -17,14 +18,14 @@ video here
 In configs/local_nusc.yaml
 
 * base_dir: Put official nuScenes here, e.g. {base_dir}/v1.0-trainval
-* image_dir: Put segmentation results here. We use [Mask2Former](https://bowenc0221.github.io/mask2former/) to segment source images. Folder structure is like {image_dir}/{sweeps/samples}/seg_CAM_FRONT. We provide processed data on [阿里云盘](), including all semantic images.
+* image_dir: Put segmentation results here. We use [Mask2Former](https://bowenc0221.github.io/mask2former/) to segment source images. Folder structure is like {image_dir}/{sweeps/samples}/seg_CAM_FRONT. We provide processed data on [google drive](https://drive.google.com/file/d/1WpHu4qa9r1WNmwGFqzY5nv9PMCfwUVOn/view), including all semantic images used in this paper. "Scene-1" and "Scene-2" of the paper contain ```scene-0063, scene-0064, scene-0200, scene-0283``` and ```scene-0109, scene-0508, scene-0523, scene-0821``` respectively.
 
 ### [KITTI Odom](https://www.cvlibs.net/datasets/kitti/eval_odometry.php)
 
 In configs/local_kitti.yaml
 
 * base_dir: Put official kitti odometry dataset here, e.g. {base_dir}/sequences
-* image_dir: Put segmentation results here. Also we use Mask2Former and folder structure is like {image_dir}/seg_sequences. We provide processed data on [阿里云盘](), including all semantic images and poses we used.
+* image_dir: Put segmentation results here. Also we use Mask2Former and folder structure is like {image_dir}/seg_sequences. We provide processed data on [google drive](https://drive.google.com/file/d/1tSgxztLtN3vu1mocfLA0rHsURF8zW6uW/view?usp=sharing), including all semantic images and poses we used.
 
 ### Quick Start
 
