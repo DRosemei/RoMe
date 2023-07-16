@@ -1,17 +1,10 @@
 # RoMe: Towards Large Scale Road Surface Reconstruction via Mesh Representation
 
-### [Paper](https://arxiv.org/abs/2306.11368)
-
-<p align="left">
+### [Paper](https://arxiv.org/abs/2306.11368),[YouTube](https://youtu.be/mTsc_QuOCiE), [Bilibili](https://www.bilibili.com/video/BV1Xx4y1o7ea/?vd_source=5051310ed13090afc35ea319bbc5cac3)
+### Ruohong Mei, Wei Sui, Jiaxin Zhang, Qian Zhang, Tao Peng and Cong Yang
+<p align="center">
   <img src="assets/rome_structure.png" width="70%"/>
 </p>
-
-
-### Ruohong Mei, Wei Sui, Jiaxin Zhang, Qian Zhang, Tao Peng and Cong Yang
-[YouTube](), [Bilibili](https://www.bilibili.com/video/BV1Xx4y1o7ea/?vd_source=5051310ed13090afc35ea319bbc5cac3)
-
-
-## Dataset
 
 ### [nuScenes](https://www.nuscenes.org/nuscenes)
 
