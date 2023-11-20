@@ -74,7 +74,7 @@ For wandb usage, please visit [here](https://wandb.ai/site).
 ```
 @misc{mei2023rome,
       title={RoMe: Towards Large Scale Road Surface Reconstruction via Mesh Representation}, 
-      author={Ruohong Mei and Wei Sui and Jiaxin Zhang and Qian Zhang and Tao Peng and Cong Yang},
+      author={Ruohong Mei and Wei Sui and Jiaxin Zhang and Xue Qin and Gang Wang and Tao Peng and Cong Yang},
       year={2023},
       eprint={2306.11368},
       archivePrefix={arXiv},
