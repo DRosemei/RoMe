@@ -5,7 +5,6 @@
 <p align="center">
   <img src="assets/rome_structure.png" width="70%"/>
 </p>
-
 ### [nuScenes](https://www.nuscenes.org/nuscenes)
 
 In configs/local_nusc.yaml
