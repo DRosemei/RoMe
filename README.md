@@ -5,7 +5,7 @@
 <p align="center">
   <img src="assets/rome_structure.png" width="70%"/>
 </p>
-RoMe can also be applied for driving drowsiness reduction based on road surface element matching and alarming. More details: https://fatigueview.github.io/
+RoMe can also be applied for driving drowsiness reduction based on road surface element matching and alarming (Integration of Cabin and Driving). More details: https://fatigueview.github.io/
 
 ### [nuScenes](https://www.nuscenes.org/nuscenes)
 
