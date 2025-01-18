@@ -31,7 +31,7 @@ torchvision==0.11.3+cu111
 torchaudio==0.10.2+cu111
 pytorch3d==0.6.1
 pymeshlab==2021.10 
-scipy opencv-py thon tqdm wandb python3.8
+scipy opencv-python tqdm wandb python3.8
 ```
 
 For wandb usage, please visit [here](https://wandb.ai/site).
@@ -73,12 +73,11 @@ For wandb usage, please visit [here](https://wandb.ai/site).
 ### Citation
 
 ```
-@misc{mei2023rome,
-      title={RoMe: Towards Large Scale Road Surface Reconstruction via Mesh Representation}, 
-      author={Ruohong Mei and Wei Sui and Jiaxin Zhang and Xue Qin and Gang Wang and Tao Peng and Cong Yang},
-      year={2023},
-      eprint={2306.11368},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{mei2024rome,
+  title={Rome: Towards large scale road surface reconstruction via mesh representation},
+  author={Mei, Ruohong and Sui, Wei and Zhang, Jiaxin and Qin, Xue and Wang, Gang and Peng, Tao and Chen, Tao and Yang, Cong},
+  journal={IEEE Transactions on Intelligent Vehicles},
+  year={2024},
+  publisher={IEEE}
 }
 ```
